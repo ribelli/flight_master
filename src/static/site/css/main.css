@@ -4,23 +4,6 @@ html, body{
     height:100%;		/* For full height images */
 }
 
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-
-.footer {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 40px;
-  border-top: 1px solid #eee;
-}
-
-.alert {
-    margin-top: 55px;
-    margin-bottom: 0;
-}
-
 body>.navbar-transparent {
     background-color: transparent;
     border-color: transparent;
@@ -65,12 +48,26 @@ body>.navbar-transparent {
     box-shadow: 0px 1px 0px #ddd;
 }
 
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+.alert {
+    margin-top: 55px;
+    margin-bottom: 0;
+}
+
 /* Home page styling */
 .corporate-jumbo {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)),
-      url("/static/site/img/banner.jpg");
-    background-repeat: no-repeat;
-    background-position: 80% center;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)), url(/static/site/img/banner.jpg) 80% center no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
