@@ -43,7 +43,7 @@ tramp
 .\#*
 *.swp
 *.swo
-
+.idea
 # Rope
 .ropeproject
 
